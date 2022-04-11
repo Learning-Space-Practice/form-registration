@@ -1,16 +1,14 @@
 const enterBtn = document.querySelector('.enter-btn')
 const registrationBtn = document.querySelector('.registration-btn')
-const box = document.querySelector('.enter-item')
+const box = document.querySelector('.enter')
 const box2 = document.querySelector('.enter-registration')
 
-enterBtn.addEventListener('click', () => {  
-   
-    box.classList.add('change')
-    box2.classList.remove('active')
-    box2.classList.remove('change')
+enterBtn.addEventListener('click', () => {        
+        box.style = 'justify-content: flex-end'
+
 })
 
-registrationBtn.addEventListener('click', () => {   
-    box2.classList.add('change')
-    box.classList.remove('change') 
+registrationBtn.addEventListener('click', () => {
+    box.style = 'justify-content: flex-start'
+
 })
