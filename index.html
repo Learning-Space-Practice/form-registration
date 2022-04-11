@@ -10,27 +10,31 @@
 <body>
     <div class="container">
         <div class="content">
-            <div class="item">
-                <h1 class="item-title">Регистрация</h1>
+            <form class="item">
+                <label class="item-title">Регистрация</label>
                 <input type="email" class="item-input" placeholder="email">
                 <input type="password" class="item-input" placeholder="Введите пароль">
                 <input type="password" class="item-input" placeholder="Подтверждение пароля">
                 <button class="item-btn">Регистрация</button>
-            </div>
-            <div class="enter active">
-                <h1 class="item-title">Есть акаунт</h1>
-                <button class="item-btn enter-btn">Войти</button>
-            </div>
-            <div class="item">
-                <h1 class="item-title">Авторизация</h1>
+            </form>
+            
+            <form class="item">
+                <label class="item-title">Авторизация</label>
                 <input type="email" class="item-input"  placeholder="email">
                 <input type="password" class="item-input" placeholder="Введите пароль">
                 <button class="item-btn">Вход</button>
+            </form>
+            <div class="enter">
+                <div class="enter-item">
+                    <h1 class="item-title">Есть акаунт</h1>
+                    <button class="item-btn enter-btn">Войти</button>
+                </div>
+                <div class="enter-registration active">
+                    <h1 class="item-title">Нет акаунта</h1>
+                    <button class="item-btn registration-btn">Зарегестрироваться</button>
+                </div>
             </div>
-            <div class="enter enter-registration">
-                <h1 class="item-title">Нет акаунта</h1>
-                <button class="item-btn registration-btn">Зарегестрироваться</button>
-            </div>
+           
         </div>
     </div>
 </body>

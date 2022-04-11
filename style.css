@@ -71,21 +71,27 @@ body {
     cursor: pointer;
 }
 .enter {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
+    position: absolute;   
+    width: 100%;
     height: 100%;
-    background: rgb(115, 128, 159);
-
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.enter-registration,.enter-item {
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(115, 128, 159);
+    width: 50%;
 }
-.enter-registration {
-    left: 0;
-}
+
 .active {
-    display: none;
+    display:none;
+    
 }
+/* @keyframes mymove {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+} */
