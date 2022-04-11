@@ -6,6 +6,7 @@ const box2 = document.querySelector('.enter-registration')
 enterBtn.addEventListener('click', () => {   
     box.classList.add('change')
     box2.classList.remove('active')
+    box2.classList.remove('change')
 })
 
 registrationBtn.addEventListener('click', () => { 
