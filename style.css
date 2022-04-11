@@ -76,6 +76,8 @@ body {
     height: 100%;
     display: flex;
     justify-content: flex-start;
+
+    
 }
 
 .enter-registration,.enter-item {
@@ -85,12 +87,21 @@ body {
     justify-content: center;
     background: rgb(115, 128, 159);
     width: 50%;
-}
 
-.active {
-    display:none;
-    
+    opacity:1;
+    transition: all 1s;
+   -webkit-transition: all 1s;
 }
+.active {
+    opacity: 0;
+}
+.active2 {
+    opacity: 1;
+}
+.change {
+    opacity: 0;
+    transition: all 2s;
+  }
 /* @keyframes mymove {
     0% {opacity: 1;}
     50% {opacity: 0;}
