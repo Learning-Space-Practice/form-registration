@@ -90,13 +90,12 @@ body {
 .change {
     z-index: -1;
     opacity: 0;
-    transition: all 1s;
+    
   }
 
   @media screen and (min-width: 350px) and (max-width: 800px) {
     body {
         background: rgb(166, 219, 66);
-        transition: all 1s;
     }
     .content {  
         width: 60%;  
@@ -108,12 +107,11 @@ body {
         height: 450px;
         align-items: center;
         flex-direction: column;
-      
+        transition: all 1s;
     }
     .enter-registration,.enter-item {
             height: 50%;
             width: 100%;
-            transition: all 1s;
             background: rgb(58, 182, 145);
     }
   }
