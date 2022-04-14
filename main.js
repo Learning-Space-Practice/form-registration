@@ -13,6 +13,7 @@ enterBtn.addEventListener('click', () => {
 registrationBtn.addEventListener('click', () => { 
    
     box2.classList.add('change')
+    box2.classList.remove('active')
     box.classList.remove('change')
     console.log(box2.classList.value)   
 })
